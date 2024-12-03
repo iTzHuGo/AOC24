@@ -35,6 +35,6 @@ def similiarity_score(list1, list2):
 	return similiarity_score
 
 if __name__ == '__main__':
-	list1, list2 = read_input('day1_input.txt')
+	list1, list2 = read_input('input.txt')
 	print('Total distance: ', total_distance(list1, list2))
 	print('Similiarity score: ', similiarity_score(list1, list2))
